@@ -57,7 +57,7 @@ RunScript:
     } else if (SelectedScript = "3. Coordinates") {
         Run, Coordinates.ahk
     } else if (SelectedScript = "4. MultiClickConfig") {
-        Run, MultiClickConfig.ahk
+        Run, %A_ScriptDir%\MultiClickConfig.ahk
 
     } else if (SelectedScript = "4. Test") {
         Run, Test.ahk
